@@ -39,9 +39,9 @@ public class App {
         System.out.println("\temail typed");
         //
         WebElement password = driver.findElement(By.id("input-password"));
-        email.click();
-        email.clear();
-        email.sendKeys("\tqwerty");
+        password.click();
+        password.clear();
+        password.sendKeys("qwerty");
         Thread.sleep(2000); // For Presentation
         System.out.println("\tpassword typed");
         //
